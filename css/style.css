@@ -1,0 +1,1675 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+
+/* #f18700 - yellow color for site */
+
+*{
+
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+
+
+}
+
+/*BANNER SECTION START*/
+
+.banner{
+
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: #381916;
+		/* background: #381916; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner img{
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	/* opacity: 0.25; */
+
+	
+
+}
+
+.banner .content{
+
+position: relative;
+max-width: 750px;
+text-align: center;
+
+}
+.banner .content h2{
+
+	color: #fff;
+	font-size: 60px;
+
+
+}
+.banner .content p {
+
+	color: #fff;
+	font-size: 18px;
+
+}
+.banner header {
+
+position:absolute;
+top: 0;
+left: 0;
+width: 100%;
+padding:  40px 100px;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+z-index: 1000;
+
+/* 
+background: #8E703D; */
+
+}
+
+
+
+
+
+
+
+.banner header .logo img{
+
+	width:450px;
+	margin-left: 50px;
+
+
+}
+
+
+
+
+.banner header .toggle{
+
+	
+	
+	/* background: url("../images/close.png"); */
+	
+
+
+}
+
+.hamburger{
+
+	background: url("../images/toggle2.png");
+	background-size: cover;
+	cursor: pointer;
+	z-index: 100001;
+
+	position: relative;
+	width: 36px;
+	height: 28px;
+}
+
+
+
+
+.banner header .dropDownMenu{
+
+    position: absolute;
+	display: none;
+	top: 30px;
+	right: 90px;
+	width: 200px;
+	height: 300px;
+	background-color: #26110F;
+
+	/* background-color: #F18700; */
+	z-index: 100000;
+	border-radius: 10px;
+	border: solid 2px #381916;
+}
+
+
+.banner header .open{
+
+	display: block;
+
+
+}
+
+
+.closeBtn{
+
+	position: relative;
+	width: 36px;
+	height: 28px;
+	background: url("../images/close.png");
+	background-size: cover;
+	cursor: pointer;
+	z-index: 10000000;
+
+
+
+	
+}
+
+
+
+
+
+.linkBx{
+
+	position: relative;
+
+	padding-top: 70px;
+/* 	padding-left: 50px;
+	padding-right: 50px; */
+
+
+	z-index: 1000000;
+	color: white;
+}
+.banner header .dropDownMenu a{
+
+	
+	display: flex;
+	flex-direction: column;
+	padding-top: 30px;
+/* 	padding-left: 100px; */
+	text-align: center;
+/* 	border: solid 1px #fff; */
+
+	color: #F18700;
+/* 	color: #381916; */
+	text-decoration:none;
+	font-size: 2em;
+	font-weight: 500;
+
+
+
+}
+/*BANNER SECTION END*/
+
+
+
+
+
+
+/*ABOUT SECTION START*/
+
+.about{
+
+position: relative;
+width: 100%;
+display: flex;
+min-height: 500px;
+
+
+}
+
+.about .contentBx{
+
+background: #162c3b;
+background-color:  #381916;
+padding: 100px;
+width: 50%;
+
+
+
+
+}
+
+.heading{
+
+	color: #fff;
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+
+}
+
+.text{
+
+	padding-top: 20px;
+
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	text-align: justify;
+  	text-justify: inter-word;
+
+  	line-height: 1.5;
+
+}
+
+.about .imgBx{
+
+	background:  url("../images/sicilia.jpeg");
+	width: 50%;
+/* 	object-fit: cover; */
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.about .imgBx2{
+	background:  url("../images/sta-su-arancini.jpeg");
+	background:  url("../images/sta-su-arancini1.jpg");
+	width: 50%;
+/* 	object-fit: cover; */
+	background-size: cover;
+	background-position: center;
+	/* background-repeat: no-repeat; */
+
+}
+
+/*ABOUT SECTION END*/
+
+/*COVER # START*/
+ .cover3{
+
+
+	background: url("../images/frying_arancini.jpg");
+
+/* 
+
+	background-size: cover;
+	object-fit: fill;
+	background-position: center; */
+
+
+	  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+	height: 60vh;
+}
+
+
+
+
+/*HISTORY SECTION START*/
+
+.history1{
+
+position: relative;
+width: 100%;
+display: flex;
+justify-content: space-between;
+/* flex-wrap: wrap; */
+min-height: 500px;
+background-color:  #F18700;
+
+/* padding: 50px; */
+
+/* align-items: stretch; */
+
+
+}
+
+.history1 .txtBx{
+
+	padding: 100px ;
+	width: 60%;
+	align-items: center;
+line-height: 1.5;
+
+
+}
+
+.history1 .txtBx .heading{
+
+	text-align: center;
+}
+
+
+
+
+
+.history1 .imgBx{
+
+
+	background: url("../images/aranciniImg.png");
+
+	object-fit: cover;
+  	object-position: bottom;
+	background-repeat: no-repeat;
+	background-position: center;
+
+  	background-size: 55%;
+
+	width: 40%;
+	/* padding: 100px; */
+/* 
+	padding-top: 120px; */
+	
+
+
+
+}
+
+.history1 .imgBx2{
+
+
+	background: url("../images/history2.png");
+
+	object-fit: cover;
+  	object-position: bottom;
+	background-repeat: no-repeat;
+	background-position: center;
+
+  	background-size: 60%;
+
+	width: 40%;
+
+
+
+	
+
+}
+
+.history1 .imgBx img{
+
+/* width: 600px; */
+	/* width: 50%;
+
+  object-fit: cover;
+  object-position: bottom; */
+
+  max-width: 400px;
+
+
+}
+
+
+.history1 .imgBx2 img{
+
+/* width: 600px; */
+	/* width: 50%;
+
+  object-fit: cover;
+  object-position: bottom; */
+
+  min-width: 400px;
+
+
+}
+
+
+
+
+
+/*HISTORY SECTION END*/
+
+
+
+/*SICILY START*/
+
+
+.sicily{
+
+position: relative;
+width: 100%;
+display: flex;
+min-height: 500px;
+
+
+}
+
+.sicily .contentBx{
+
+background: #162c3b;
+background-color:  #381916;
+padding: 100px;
+width: 50%;
+}
+
+.sicily .heading{
+
+	color: #fff;
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+
+}
+
+.sicily .text{
+
+	padding-top: 20px;
+
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	text-align: justify;
+  	text-justify: inter-word;
+
+}
+
+.sicily .imgBx{
+
+	background:  url("../images/sicily_street.png");
+	width: 50%;
+	object-fit: cover;
+	/* background-size: cover; */
+	background-position: center;
+	/* background-repeat: no-repeat; */
+}
+
+/*SICILY END*/
+
+
+
+/*SERVICES SECTION START*/
+
+
+.services{
+
+	background: #12222d;
+	background-color: #26110f;
+	padding: 100px;
+
+	text-align: center;
+
+}
+
+
+
+.services .container{
+
+position: relative;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+margin-top: 60px;
+
+
+
+}
+
+.services .container .serviceBx{
+
+position: relative;
+background: #fff;
+
+
+width: 350px;
+height: 460px;
+display: flex;
+justify-content: center;
+/* align-items: center; */
+
+border-radius: 5%;
+
+
+}
+
+
+
+
+
+
+.services .container .serviceBx .chosenProductImg{
+
+max-width: 250px;
+/* 
+width: 300px;
+height: 300px;
+ */
+ padding-top: 35px;
+ padding-bottom: 30px;
+}
+.services .container .serviceBx h2{
+
+	font-weight: 500;
+	font-size: 30px;
+	letter-spacing: 1px;
+	padding-bottom: 0px;
+	
+	
+	color: #8E703D;
+}
+
+.services .container .serviceBx .arrow{
+
+	height: 80px;
+
+/* 	ANIMIRAJ RUKU DA SE BLAGO MRAD GORE DOLE I KAD HOVER NA RUKU, RUKA SE ZAUSTAVI I IZADJE OPIS.
+ JAVASCRIPT  !ANIMACIJA RUKE 2. ON HOVER NA Ruku ruka nestaje i otvara se dole sa natpisom*/
+
+ -webkit-animation: movehand 1.3s  forwards ease-in-out;
+
+  animation: movehand 1.3s  forwards infinite ease-in-out;
+
+
+
+/* 
+  animation: move 10s forwards  infinite  linear; */
+}
+
+/* Add Animation */
+@-webkit-keyframes movehand {
+from {
+        transform:translateY(0px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    to {
+        transform:translateY(0px);
+    }
+}
+
+@keyframes movehand {
+ 
+from {
+        transform:translateY(0px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    to {
+        transform:translateY(0px);
+    }
+ 
+
+}
+
+
+
+.serviceBxExtendable{
+
+	position: absolute;
+	top: 350px;
+	right: 0;
+	left: 0;
+	margin: auto;
+
+	
+	background: #fff;
+
+
+	border-radius: 5%;
+	min-height: 10%;
+	min-height: 50px;
+
+	/* display: none; */
+	/* display: block; */
+
+	padding: 30px;
+	text-align: justify;
+	opacity: 0;
+	visibility: hidden;
+
+	
+	 transition: visibility 1s, opacity 1s;
+    -webkit-transition: visibility 1s, opacity 1s;
+
+	
+	
+}
+
+.serviceBx:hover .serviceBxExtendable{
+
+/* 	display: block; */
+    /* height: 60%; */
+    visibility: visible;
+	opacity: 1;
+
+}
+
+#serviceBx1{
+
+z-index: 200;
+}
+#serviceBx2{
+z-index: 100;
+	
+}
+#serviceBx3{
+
+	
+}
+
+/* .arrow:hover  + .serviceBxExtendable{
+
+	display: block;
+	opacity: 1;
+	transition: display: 2s, opacity: 3s linear;
+	transition: all 10s linear;
+	
+
+	
+}
+ */
+
+
+
+/*EXAMPLE*/
+/* #show {
+  display: none
+}
+#main:hover + #show {
+  display: block
+}
+#main:hover ~ #hide {
+  display: none
+}
+ */
+
+
+
+
+.services .openFullMenu{
+
+	padding-top:100px;
+
+}
+
+.services .myBtn{
+
+/* 	width: 150px;
+	background: #fff;
+	color: #111;
+	cursor: pointer;
+	font-weight: 400;
+	padding: 10px; */
+
+
+	color: #fff;
+
+	text-decoration: none;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+
+}
+
+/* modal content start */
+
+/* The Modal (background) */
+.modal {
+
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 10000; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+    padding-bottom: 50px;
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+
+  border: 1px solid #888;
+  width: 85%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color:  #381916;
+  color: white;
+}
+
+.modal-body {
+	padding: 2px 16px;
+	padding-bottom: 30px;
+
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  /* background-color:  #381916; */
+  color: white;
+}
+
+
+
+.meni{
+
+
+	display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+
+}
+
+.meni > div{
+
+	border-bottom: groove 7px #F18700;
+	/*  border: solid 1px black; */
+}
+
+.meni .menItemName{
+
+	margin-top: 50px;
+	font-weight: 900;
+	font-size: 1.7em;
+	margin-bottom: 25px;
+
+}
+
+
+
+.meni img{
+
+
+}
+
+.meni .weight{
+
+	margin-top: 15px;
+}
+
+.meni .ingredients{
+
+	margin-top: 15px;
+	padding-right: 40px;
+	padding-left: 40px;
+	min-height: 50px;
+
+
+
+
+}
+
+.meni .price{
+
+	margin-top: 15px;
+	font-weight: 900;
+	margin-bottom: 25px;
+}
+
+
+
+
+
+/* modal content end */
+
+/*SERVICES SECTION END*/
+
+
+
+
+
+/*TECHNOLOGY SECTION START*/
+
+.technology{
+	background: #3f8ffc;
+	background-color: #876664;
+	background-color: #bc9b98;
+	background-color: #6d5c5b;
+	background-color: #6b6b59;
+	background-color: #8e703d;
+	width: 100%;
+	padding: 100px;
+
+	padding-top: 300px;
+	margin-top: -350px;
+
+
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+
+.technology .contentBx{
+
+
+	max-width: 800px;
+}
+
+
+.technology .imgBx{
+
+ 	max-width: 250px;  
+/* max-width: 400px; */
+
+
+}
+
+.technology .imgBx img{
+
+max-width: 100%; 
+
+
+}
+/*TECHNOLOGY SECTION END*/
+
+
+
+
+/*CLIENT SECTION START*/
+.client{
+
+	background: #162c3b;
+
+	background-color:  #381916;
+	padding: 100px;
+	text-align: center;
+	width: 100%;
+
+}
+
+.client .imgBx{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 40px;
+	width: 100%;
+}
+
+.client .imgBx img{
+
+width: 250px;
+margin: 20px;
+opacity: 0.25;
+cursor: pointer;
+
+}
+
+.client .imgBx img:hover{
+
+opacity: 1;
+
+}
+
+
+
+/*carousel start*/
+
+
+
+.slider {
+ /*  background: white; */
+ /*  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125); */
+ padding-top: 50px;
+
+  height: 400px;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+ /*  width: 960px; */
+}
+.slider::before, .slider::after {
+  background: linear-gradient(to right, #271412 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 400px;
+  position: absolute;
+  width: 100px;
+  z-index: 2;
+}
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider::before {
+  left: 0;
+  top: 0;
+}
+.slider .slide-track {
+  -webkit-animation: scroll 40s linear infinite;
+          animation: scroll 40s linear infinite;
+  display: flex;
+ /*  justify-content: space-between; */
+  width: calc(250px * 8);
+}
+.slider .slide {
+  height: 100px;
+  width: 250px;
+  /* margin-right: 50px; */
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 8));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 8));
+  }
+}
+
+
+/*carousel end*/
+
+
+/*elements to animate*/
+/* .ingredient1, .ingredient2, .ingredient3, .ingredient4{
+
+	animation: move 8s both infinite linear;
+	width: 100%;
+} */
+
+/*KEYFRAMES*/
+
+/* @keyframes move{
+
+
+
+	from{ transform:translateX(-100px); }
+	to{ transform: translateX(100%); }
+
+
+} */
+
+
+
+/*CLIENT SECTION END*/
+
+
+
+/*COVER 2 START*/
+ .cover2{
+
+	background: url("../images/arancini_contact_cover.jpg");
+	background: url("../images/plate_arancini.jpg");
+
+/* 
+
+	background-size: cover;
+	object-fit: fill;
+	background-position: center; */
+
+
+	  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+	height: 100vh;
+}
+
+/*COVER 2 END*/
+
+
+/*CONTACT SECTION START*/
+
+.contact{
+
+	/* padding: 100px;
+	background: #162c3b;
+	text-align: center; */
+
+	position: relative;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	
+
+	background-color:  #381916;
+	
+	border-bottom: solid 2px #f18700;
+
+}
+
+.contact .contentBx{
+
+
+padding: 70px 70px;
+width: 100%;
+text-align: center;
+display: flex;
+justify-content: space-around;
+/* align-items: center; */
+
+
+
+}
+
+.contact  .contentBx .orderInfo{
+
+	margin-bottom: 40px;
+}
+
+.contact  .contentBx .orderInfo h1{
+
+	padding-top: 30px;
+	color: white;
+	text-align: center;
+	font-size: 34px;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+
+
+}
+.contact  .contentBx .orderInfo p{
+
+	color: white;
+	font-size: 24px;
+	letter-spacing: 1px;
+		margin-bottom: 15px;
+
+}
+
+
+.contact .contentBx .imgBx{
+
+/* padding: 200px; */
+
+/* background: red; */
+
+}
+
+.contact .contentBx .imgBx #img1, .contact .contentBx .imgBx #img2{
+
+max-width: 350px;
+
+
+}
+
+
+#img1{
+
+-webkit-animation: logolight 2s forwards infinite ease-in-out;
+
+animation: logolight 2s forwards infinite ease-in-out;
+}
+
+#img2{
+
+-webkit-animation: logolight 2s 1s forwards infinite ease-in-out;
+
+animation: logolight 2s 1s forwards infinite ease-in-out;
+
+
+}
+.contact h2{
+
+	color: #fff;
+	font-size: 30px;
+	font-weight: 900;
+	margin-bottom: 15px;
+	letter-spacing: 1px;
+}
+
+
+
+
+
+/* Add Animation */
+@-webkit-keyframes logolight {
+  from { opacity:0.25} 
+  to { opacity:1}
+}
+
+@keyframes logolight {
+   from { opacity:0.25} 
+  to { opacity:1}
+}
+
+
+
+
+
+/*CONTACT SECTION END*/
+
+
+/*FOOTER SECTION START*/
+
+
+.footer{
+
+	background: #162c3b;
+	background-color: #f18700;
+	background-color: #381916;
+	
+	padding: 20px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer .goToTop{
+
+	padding: 13px;
+	color: #F18700 ;
+	font-size: 16px;
+	background: transparent;
+	outline: none;
+	border-radius: 5px;
+	border:  solid 1px #F18700;
+
+
+}
+
+.footer ul{
+
+	display: flex;
+	justify-content: center;
+/* 	align-items: center; */
+
+}
+
+.footer ul li{
+
+list-style: none;
+	
+}
+
+.footer ul li a{
+
+text-decoration: none;
+	
+}
+
+
+.footer ul li a img{
+
+	max-width: 50px;
+	display: inline-block;
+	margin:  0 10px;
+	/* filter: invert(1); */
+	opacity: 0.3;
+}
+
+
+
+/*FOOTER SECTION END*/
+
+
+/*SMALLER SCREENS START*/
+@media (max-width: 1400px ){
+
+		.history1 .imgBx, .history1 .imgBx2{
+
+
+		  	background-size: 70%;
+
+			
+			
+		}
+
+
+
+
+}
+
+
+
+
+
+@media (max-width: 1200px){
+
+		.meni{
+
+			
+		  grid-template-columns: 1fr 1fr;
+		  grid-template-rows: 1fr 1fr 1fr;
+		 
+		  grid-template-areas:
+		    ". . "
+		    ". . "
+		    ". . ";
+		}
+
+		.history1 {
+
+
+		  flex-direction: column-reverse;
+			
+
+		}
+
+		.history1 .txtBx{
+
+		padding: 50px;
+		width: 100%;
+		
+
+	
+
+
+}
+		.history1 .imgBx, .history1 .imgBx2{
+
+
+	/* 	  	background-size: 50%; */
+
+			width: 50%;
+			min-height: 450px;
+		
+			margin: auto;
+			
+			
+	
+		}
+
+
+
+.contact .contentBx .imgBx #img1, .contact .contentBx .imgBx #img2{
+
+		max-width: 250px;
+
+
+}
+
+
+}
+
+@media (max-width: 1140px){
+
+
+		.services .container{
+
+			
+			justify-content: center;
+			margin-top: 20px;
+			
+
+		}
+
+
+}
+
+
+
+
+
+@media (max-width: 991px){
+
+		.banner header
+		 {
+
+			padding: 20px 50px;
+
+		}
+		.banner .content h2
+		{
+
+			font-size: 36px;
+		}
+		.banner .content p
+		 {
+		    
+		    font-size: 16px;
+		}
+		.banner
+		{
+
+			padding: 50px;
+		}
+
+		.banner header .dropDownMenu{
+
+		
+			top: 10px;
+			right: 40px;
+			width: 200px;
+			height: 300px;
+		
+		}
+
+
+
+
+		.about{
+
+			flex-direction: column;
+		}
+
+		#aboutArancini{
+
+			flex-direction: column-reverse;
+		}
+
+		.about .contentBx, .about .imgBx, .about .contentBx, .about .imgBx2{
+
+
+			width: 100%;
+			padding: 50px;
+			min-height: 500px;
+			text-align: center;
+
+		}
+		.history1{
+
+			
+			justify-content: center;
+			/* flex-wrap: wrap; */
+		
+			
+
+		}
+
+
+
+		.history1 .txtBx {
+
+
+		 	width: 100%;
+			padding: 50px;
+			min-height: 200px;
+			text-align: center;
+			
+
+		}
+
+
+			.history1 .imgBx{
+
+
+			}
+	
+
+		.history1 .imgBx, .history1 .imgBx2{
+
+
+				background-size: 100%;
+				min-height: 500px;
+
+
+
+		}
+
+
+
+
+
+
+
+
+		.services{
+
+			padding: 50px;
+
+		}
+		.services .container{
+
+			
+			justify-content: center;
+			margin-top: 20px;
+			
+
+		}
+
+		.services .container .serviceBx {
+    
+
+			margin: 20px;
+			width: 300px;
+			min-height: 350px;
+    		
+		}
+		.meni{
+
+			display: flex;
+			flex-direction: column;
+		}
+
+
+
+		.sicily{
+
+			flex-direction: column;
+		}
+
+		.sicily .contentBx, .about .imgBx{
+
+
+			width: 100%;
+			padding: 50px;
+			min-height: 500px;
+			text-align: center;
+
+		}
+
+
+
+
+		.technology{
+
+			padding: 50px;
+			padding-top: 300px;
+			justify-content: center;
+			flex-direction: column;
+
+		}
+
+		.technology .imgBx{
+
+			margin-top: 40px;
+			max-width: 250px;
+		}
+
+
+
+		.client{
+
+			padding: 50px;
+		}
+
+		.client .imgBx{
+
+			justify-content: center;
+		}
+
+		.testimonials{
+
+			padding: 50px;
+		}
+
+		.testimonials  .contentBx{
+
+		
+
+			padding: 60px 40px;
+			max-width: 550px;
+			
+			margin-bottom: 40px;
+		}
+
+		.testimonials  .contentBx:last-child{
+
+			margin-bottom: 0;
+
+
+		}
+
+
+		.contact{
+			/* padding: 100px; */
+		}
+		.contact .contentBx{
+			flex-direction: column;
+
+		}
+
+
+	
+
+
+
+		.footer{
+
+			padding: 20px 50px;
+			flex-direction: column-reverse;
+			text-align: center;
+
+		}
+
+		.footer ul{
+
+			margin-bottom: 20px;
+
+		}
+
+
+  }
+
+@media (max-width: 450px){
+
+
+		.banner header .dropDownMenu{
+
+		
+		
+			width: 100%;
+			height: 500px;
+			border-radius: 0;
+			margin: auto;
+			right: 0;
+			top: 0;
+		
+		}
+		.banner header .dropDownMenu a{
+
+	
+			display: flex;
+			flex-direction: column;
+			padding-top: 70px;
+	
+			text-align: center;
+			font-size: 3em;
+		
+
+
+	}
+
+			
+
+			.banner header .logo #logo{
+
+				width:370px;
+				margin-left: 0px;
+				
+				position: absolute;
+				top: 45px;
+				left: 0;
+
+			}
+
+
+
+		.history1 .txtBx {
+
+
+		 	
+			padding: 50px;
+			padding-top: 20px;
+			
+			
+
+		}
+
+
+			.history1 .imgBx, .history1 .imgBx2{
+
+
+				background-size: 100%;
+				min-height: 250px;
+				align-items: center;
+
+
+
+		    }
+
+		    .history1 .imgBx{
+
+
+		    }
+
+
+		    .text{
+
+		    	line-height: 1.1;
+		    }
+
+
+		   .contact .contentBx .imgBx #img1, .contact .contentBx .imgBx #img2{
+
+		max-width: 200px;
+
+
+		}
+
+		.services .container .serviceBx .arrow{
+
+				height: 60px;
+
+		}
+
+
+
+
+
+
+
+
+}
+
