@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
 
-/* #f18700 - yellow color for site */
-
 *{
 
 
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
 
 
 }
@@ -22,7 +20,6 @@ font-family: 'Poppins', sans-serif;
 	width: 100%;
 	height: 100vh;
 	background: #381916;
-		/* background: #381916; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -36,17 +33,15 @@ font-family: 'Poppins', sans-serif;
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	/* opacity: 0.25; */
-
 	
 
 }
 
 .banner .content{
 
-position: relative;
-max-width: 750px;
-text-align: center;
+	position: relative;
+	max-width: 750px;
+	text-align: center;
 
 }
 .banner .content h2{
@@ -64,25 +59,19 @@ text-align: center;
 }
 .banner header {
 
-position:absolute;
-top: 0;
-left: 0;
-width: 100%;
-padding:  40px 100px;
-display: flex;
-justify-content: flex-end;
-align-items: center;
-z-index: 1000;
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding:  40px 100px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	z-index: 1000;
 
-/* 
-background: #8E703D; */
+
 
 }
-
-
-
-
-
 
 
 .banner header .logo img{
@@ -94,15 +83,11 @@ background: #8E703D; */
 }
 
 
-
-
 .banner header .toggle{
 
 	
-	
 	/* background: url("../images/close.png"); */
 	
-
 
 }
 
@@ -131,7 +116,6 @@ background: #8E703D; */
 	height: 300px;
 	background-color: #26110F;
 
-	/* background-color: #F18700; */
 	z-index: 100000;
 	border-radius: 10px;
 	border: solid 2px #381916;
@@ -163,16 +147,11 @@ background: #8E703D; */
 
 
 
-
-
 .linkBx{
 
 	position: relative;
 
 	padding-top: 70px;
-/* 	padding-left: 50px;
-	padding-right: 50px; */
-
 
 	z-index: 1000000;
 	color: white;
@@ -183,12 +162,8 @@ background: #8E703D; */
 	display: flex;
 	flex-direction: column;
 	padding-top: 30px;
-/* 	padding-left: 100px; */
 	text-align: center;
-/* 	border: solid 1px #fff; */
-
 	color: #F18700;
-/* 	color: #381916; */
 	text-decoration:none;
 	font-size: 2em;
 	font-weight: 500;
@@ -207,20 +182,20 @@ background: #8E703D; */
 
 .about{
 
-position: relative;
-width: 100%;
-display: flex;
-min-height: 500px;
+	position: relative;
+	width: 100%;
+	display: flex;
+	min-height: 500px;
 
 
 }
 
 .about .contentBx{
 
-background: #162c3b;
-background-color:  #381916;
-padding: 100px;
-width: 50%;
+	background: #162c3b;
+	background-color:  #381916;
+	padding: 100px;
+	width: 50%;
 
 
 
@@ -263,7 +238,7 @@ width: 50%;
 }
 
 .about .imgBx2{
-	background:  url("../images/sta-su-arancini.jpeg");
+
 	background:  url("../images/sta-su-arancini1.jpg");
 	width: 50%;
 /* 	object-fit: cover; */
@@ -547,10 +522,8 @@ height: 300px;
 
 .services .container .serviceBx .arrow{
 
-	height: 80px;
+height: 80px;
 
-/* 	ANIMIRAJ RUKU DA SE BLAGO MRAD GORE DOLE I KAD HOVER NA RUKU, RUKA SE ZAUSTAVI I IZADJE OPIS.
- JAVASCRIPT  !ANIMACIJA RUKE 2. ON HOVER NA Ruku ruka nestaje i otvara se dole sa natpisom*/
 
  -webkit-animation: movehand 1.3s  forwards ease-in-out;
 
@@ -1173,7 +1146,21 @@ animation: logolight 2s 1s forwards infinite ease-in-out;
   to { opacity:1}
 }
 
+#openMenuPhone{
 
+
+	display: none;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.5em;
+	background: transparent;
+	border: solid 1px yellow;
+	border-radius: 5px;
+	padding: 15px;
+
+
+
+}
 
 
 
@@ -1651,10 +1638,16 @@ text-decoration: none;
 		    }
 
 
-		   .contact .contentBx .imgBx #img1, .contact .contentBx .imgBx #img2{
+		 .contact .contentBx .imgBx #img1 {
 
 		max-width: 200px;
 
+
+
+		}
+
+		.contact .contentBx .imgBx #img2{
+				display: none;
 
 		}
 
@@ -1662,6 +1655,17 @@ text-decoration: none;
 
 				height: 60px;
 
+		}
+
+
+		.contact .contentBx{
+			flex-direction: column-reverse;
+
+		}
+
+		#openMenuPhone{
+
+				display: block;
 		}
 
 

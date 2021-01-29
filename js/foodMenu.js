@@ -27,7 +27,7 @@ let btn = document.querySelector(".myBtn");
 
 
  	
-// 		// When the user clicks the button, open the modal 
+// When the user clicks the button, open the modal 
 
 btn.addEventListener("click", function(){
 
@@ -38,14 +38,29 @@ btn.addEventListener("click", function(){
  }, false);
 
 
-// }
+
+
+
+// Get the button that opens the modal
+let smallDevice = document.querySelector("#openMenuPhone");
+
+
+ 	
+// When the user clicks the button, open the modal 
+
+smallDevice.addEventListener("click", function(){
+
+ 			
+ 		makeModalVisible();
+ 		
+
+ }, false);
+
 
 
 let span = document.querySelector(".close");
 
-
- 	
-// 		// When the user clicks the button, open the modal 
+// When the user clicks the button, open the modal 
 
 span.addEventListener("click", function(){
 
@@ -54,6 +69,7 @@ span.addEventListener("click", function(){
  		
 
  }, false);
+
 
 
 let linkMenu = document.querySelector("#openMenu");
